@@ -1,0 +1,97 @@
+
+/*Form CSS */
+.form-style{
+	max-width: 450px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style label > span{
+	float: left;
+	width: 100px;
+	color: #F072A9;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.form-style fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #C3F1FF;
+	padding: 20px;
+	
+	box-shadow: inset 0px 0px 15px #D5F5FF;
+	-moz-box-shadow: inset 0px 0px 15px #D5F5FF;
+	-webkit-box-shadow: inset 0px 0px 15px #D5F5FF;
+}
+.form-style fieldset legend{
+	color: #20b3f9;
+	border-top: 1px solid #FFD2D2;
+	border-left: 1px solid #FFD2D2;
+	border-right: 1px solid #FFD2D2;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	padding: 5px 8px 20px 8px;
+	box-shadow: -0px -1px 2px #F1F1F1;
+	-moz-box-shadow:-0px -1px 2px #F1F1F1;
+	-webkit-box-shadow:-0px -1px 2px #F1F1F1;
+	font-weight: normal;
+	font-size: 15px;
+}
+.form-style textarea{
+	width:250px;
+	height:100px;
+}
+.form-style input[type=text],
+.form-style input[type=date],
+.form-style input[type=datetime],
+.form-style input[type=password],
+.form-style input[type=number],
+.form-style input[type=search],
+.form-style input[type=time],
+.form-style input[type=url],
+.form-style input[type=email],
+.form-style input[type=file],
+.form-style select, 
+.form-style textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #B7EEFF;
+	outline: none;
+	color: #0073ff;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #D5F5FF;
+	-moz-box-shadow: inset 1px 1px 4px #D5F5FF;
+	-webkit-box-shadow: inset 1px 1px 4px #D5F5FF;
+	background: #FFEFF6;
+	width:80%;
+	height:30px;
+}
+input[type=file]{
+	width:80%;
+}
+.form-style  input[type=submit],input[type=reset],
+.form-style  input[type=button]{
+	background: #239fe2;
+	border: 1px solid #51a6c1;
+	padding: 5px 15px 5px 15px;
+	color: #FFCBE2;
+	box-shadow: inset -1px -1px 3px #36a0da;
+	-moz-box-shadow: inset -1px -1px 3px #36a0da;
+	-webkit-box-shadow: inset -1px -1px 3px #36a0da;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.required{
+	color:red;
+	font-weight:normal;
+}

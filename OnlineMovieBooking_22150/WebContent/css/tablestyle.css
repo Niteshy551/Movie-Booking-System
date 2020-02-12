@@ -1,0 +1,52 @@
+
+#content > table
+{
+	margin:0px auto;
+	padding:5px;
+	border-collapse: collapse;
+	background-color: #EEEEEE;
+}
+
+#content > table tr
+{
+	padding:10px;
+}
+
+#content > table td, #content > table th {
+  border: 1px solid #AAAAAA;
+  padding: 5px;
+}
+
+
+#content > table tr th {
+  font-size: 18px;
+  text-align:center;
+  color:white;
+}
+#content > table tr td {
+  font-size: 16px;
+  text-align:center;
+  color:black;
+}
+#content > table tr td a {
+  font-size: 16px;
+  text-align:center;
+  color:blue;
+  text-decoration:none;
+}
+#content > table tr td img {
+  width: 150px;
+  height: 80px;
+}
+
+
+#content > table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+#content > table tr:nth-of-type(1)  {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
